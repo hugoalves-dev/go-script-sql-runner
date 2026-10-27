@@ -10,7 +10,7 @@ vi.mock('@monaco-editor/react', () => ({
   ),
 }))
 
-const repositoryUrl = 'https://github.com/vitorhugo-dotnet/go-script-sql-runner'
+const repositoryUrl = 'https://github.com/hugoalves-dev/go-script-sql-runner'
 
 const profile = {
   id: 'local-dev',
@@ -457,7 +457,7 @@ describe('main runner workspace', () => {
       await screen.findByText('001-users.sql')
 
       const repositoryLink = screen.getByRole('link', {
-        name: 'GitHub · vitorhugo-dotnet/go-script-sql-runner',
+        name: 'GitHub · hugoalves-dev/go-script-sql-runner',
       })
       expect(repositoryLink).toHaveAttribute('href', repositoryUrl)
 

@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/app"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/app"
 )
 
 const plaintextCredentialsWarning = "WARNING: exported profile contains database credentials in plaintext."

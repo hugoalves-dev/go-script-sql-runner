@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/app"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/storage"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/app"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/storage"
 )
 
 func cliProfile(id, name, password string) profile.Profile {

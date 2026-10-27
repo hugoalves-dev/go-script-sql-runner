@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/app"
-	applog "github.com/vitorhugo-dotnet/go-script-sql-runner/internal/logging"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/storage"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/app"
+	applog "github.com/hugoalves-dev/go-script-sql-runner/internal/logging"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/storage"
 )
 
 type Runtime struct {

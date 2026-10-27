@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/executor"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/executor"
 )
 
 func TestFileSinkPersistsStructuredExecutionEvents(t *testing.T) {

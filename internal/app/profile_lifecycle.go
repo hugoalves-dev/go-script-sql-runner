@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/id"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/id"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 func (s *Service) CloneProfile(ctx context.Context, profileID string) (profile.Profile, error) {

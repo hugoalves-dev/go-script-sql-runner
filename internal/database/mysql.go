@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 const connectionTimeout = 10 * time.Second

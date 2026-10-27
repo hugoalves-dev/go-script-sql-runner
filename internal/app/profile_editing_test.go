@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/storage"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/storage"
 )
 
 func editingService(t *testing.T) (*Service, profile.Profile) {

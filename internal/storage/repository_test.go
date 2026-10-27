@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 func scriptContentRepository(t *testing.T) (*Repository, profile.Profile, string) {

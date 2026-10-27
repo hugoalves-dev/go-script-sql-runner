@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/id"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/id"
 )
 
 var ErrUnsafeArchivePath = errors.New("unsafe archive path")

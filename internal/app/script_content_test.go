@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/storage"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/storage"
 )
 
 func TestScriptContentServiceRoundTripPreservesMetadata(t *testing.T) {

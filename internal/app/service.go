@@ -8,11 +8,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/database"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/executor"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/id"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/storage"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/database"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/executor"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/id"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/storage"
 )
 
 type serverConnectorFunc func(context.Context, profile.Connection) (*database.Client, database.ConnectionResult, error)

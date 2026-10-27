@@ -1,4 +1,4 @@
-module github.com/vitorhugo-dotnet/go-script-sql-runner
+module github.com/hugoalves-dev/go-script-sql-runner
 
 go 1.26.0
 

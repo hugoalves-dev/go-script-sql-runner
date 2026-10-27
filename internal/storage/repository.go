@@ -13,7 +13,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 var ErrNotFound = errors.New("profile not found")

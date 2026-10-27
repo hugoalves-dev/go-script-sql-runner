@@ -12,8 +12,8 @@
     <MediaTemplate EmbedCab="yes" />
 
     <Property Id="INSTALL_SCOPE" Value="CurrentUser" Secure="yes" />
-    <Property Id="ARPHELPLINK" Value="https://github.com/vitorhugo-dotnet/go-script-sql-runner" />
-    <Property Id="ARPURLINFOABOUT" Value="https://github.com/vitorhugo-dotnet/go-script-sql-runner" />
+    <Property Id="ARPHELPLINK" Value="https://github.com/hugoalves-dev/go-script-sql-runner" />
+    <Property Id="ARPURLINFOABOUT" Value="https://github.com/hugoalves-dev/go-script-sql-runner" />
 
     <SetDirectory Id="INSTALLFOLDER"
                   Action="SetCurrentUserInstallFolder"

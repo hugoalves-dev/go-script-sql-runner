@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	wailsruntime "github.com/wailsapp/wails/v2/pkg/runtime"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/executor"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/executor"
 )
 
 const (

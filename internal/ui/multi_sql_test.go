@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 type multiSQLDialogs struct {

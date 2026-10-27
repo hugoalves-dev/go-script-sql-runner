@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 func TestBuildConfig(t *testing.T) {

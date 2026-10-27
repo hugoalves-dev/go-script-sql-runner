@@ -376,14 +376,14 @@ export default function App({ api = wailsRunnerApi }: AppProps) {
 
         <footer className="flex items-center border-t border-slate-900 px-3 py-1 text-[10px] text-slate-600">
           <a
-            href="https://github.com/vitorhugo-dotnet/go-script-sql-runner"
+            href="https://github.com/hugoalves-dev/go-script-sql-runner"
             className="rounded-sm transition hover:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-600"
             onClick={(event) => {
               event.preventDefault()
-              api.openExternalURL('https://github.com/vitorhugo-dotnet/go-script-sql-runner')
+              api.openExternalURL('https://github.com/hugoalves-dev/go-script-sql-runner')
             }}
           >
-            GitHub · vitorhugo-dotnet/go-script-sql-runner
+            GitHub · hugoalves-dev/go-script-sql-runner
           </a>
         </footer>
       </main>

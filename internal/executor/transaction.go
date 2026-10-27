@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 func executeSQL(ctx context.Context, db *sql.DB, sqlText string, mode profile.TransactionMode) error {

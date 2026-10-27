@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/id"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/id"
 )
 
 var rename = os.Rename

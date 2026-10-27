@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/spf13/cobra"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 func newProfileCommand(ctx context.Context, service Service, stdin io.Reader, stderr io.Writer) *cobra.Command {

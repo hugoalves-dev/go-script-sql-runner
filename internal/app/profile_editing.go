@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
 )
 
 func (s *Service) UpdateProfile(ctx context.Context, updated profile.Profile) (profile.Profile, error) {

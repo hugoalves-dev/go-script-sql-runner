@@ -11,7 +11,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/id"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/id"
 	"go.yaml.in/yaml/v3"
 )
 

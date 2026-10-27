@@ -8,9 +8,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/database"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/profile"
-	"github.com/vitorhugo-dotnet/go-script-sql-runner/internal/redact"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/database"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/profile"
+	"github.com/hugoalves-dev/go-script-sql-runner/internal/redact"
 )
 
 const implicitCommitWarning = "script contains MySQL DDL that can cause an implicit commit; complete rollback is not guaranteed"
